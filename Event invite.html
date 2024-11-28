@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wedding Invitation</title>
+    <style>
+        /* Reset some basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Overall body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Container for the invite */
+        .invite-container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: rgb(247, 203, 240);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        /* Header Section */
+        .invite-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .invite-header h1 {
+            font-size: 3rem;
+            color: #3b5998;
+            margin-bottom: 10px;
+        }
+
+        .event-date {
+            font-size: 1.2rem;
+            color: #777;
+        }
+
+        /* Event Details Section */
+        .event-details {
+            margin-bottom: 30px;
+        }
+
+        .event-details h2 {
+            font-size: 1.8rem;
+            color: #3b5998;
+            margin-bottom: 15px;
+        }
+
+        .venue-details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .venue h3 {
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        .venue p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .event-time {
+            font-size: 1.2rem;
+            color: #777;
+            font-style: italic;
+        }
+
+        /* Guest RSVP Section */
+        .guest-rsvp {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .guest-rsvp button {
+            background-color: #3b5998;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .guest-rsvp button:hover {
+            background-color: #2d4373;
+        }
+
+        /* Guest List Section */
+        .guest-list {
+            margin-bottom: 30px;
+        }
+
+        .guest-list h2 {
+            font-size: 1.8rem;
+            color: #3b5998;
+            margin-bottom: 15px;
+        }
+
+        .guest-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .guest-list li {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invite-container">
+        <header class="invite-header">
+            <h1>Wedding Invitation</h1>
+            <p class="event-date">Dec 1, 2024</p>
+        </header>
+
+        <section class="event-details">
+            <h2>Event Details</h2>
+            <div class="venue-details">
+                <div class="venue">
+                    <h3>Church:</h3>
+                    <p>Dunamis International Gospel Centre (The Glory Dome), Lord's Garden, Airport Road, Abuja</p>
+                </div>
+                <div class="venue">
+                    <h3>Reception:</h3>
+                    <p>Abuja Continental Hotel, Zone 4, 1 Ladi Kwali St, Wuse, Abuja</p>
+                </div>
+            </div>
+            <p class="event-time">Time: 10:00 AM - Church Service, 2:00 PM - Reception</p>
+        </section>
+
+        <section class="guest-rsvp">
+            <h2>RSVP</h2>
+            <button onclick="window.location.href='mailto:yolechika@gmail.com';">RSVP Here</button>
+        </section>
+
+        <section class="guest-list">
+            <h2>Guest List</h2>
+            <ul>
+                <li>John & Mary Okafor</li>
+                <li>Ahmadu & Zainab Abubakar</li>
+                <li>David & Sarah Jones</li>
+                <!-- More names can be added here -->
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
